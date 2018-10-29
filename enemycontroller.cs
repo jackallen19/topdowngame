@@ -6,7 +6,7 @@ public class enemycontroller : MonoBehaviour {
     public float speed;
     public Transform player;
     public int health;
-    Text text;
+    
  
     // Use this for initialization
 
@@ -35,7 +35,7 @@ public class enemycontroller : MonoBehaviour {
             if (health <= 0)
             {
                 Destroy(gameObject);
-                player.gameObject.score += 1;
+                
             }
 
         }
